@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E8C1A62C233C05E3007C765E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C1A62B233C05E3007C765E /* AppDelegate.swift */; };
-		E8C1A62E233C05E3007C765E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C1A62D233C05E3007C765E /* ViewController.swift */; };
 		E8C1A631233C05E3007C765E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8C1A62F233C05E3007C765E /* Main.storyboard */; };
 		E8C1A634233C05E3007C765E /* Task29.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8C1A632233C05E3007C765E /* Task29.xcdatamodeld */; };
 		E8C1A636233C05E5007C765E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8C1A635233C05E5007C765E /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		E8C1A628233C05E3007C765E /* Task29.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Task29.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8C1A62B233C05E3007C765E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E8C1A62D233C05E3007C765E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E8C1A630233C05E3007C765E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8C1A633233C05E3007C765E /* Task29.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Task29.xcdatamodel; sourceTree = "<group>"; };
 		E8C1A635233C05E5007C765E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,15 +54,86 @@
 		E8C1A62A233C05E3007C765E /* Task29 */ = {
 			isa = PBXGroup;
 			children = (
-				E8C1A62B233C05E3007C765E /* AppDelegate.swift */,
-				E8C1A62D233C05E3007C765E /* ViewController.swift */,
-				E8C1A62F233C05E3007C765E /* Main.storyboard */,
-				E8C1A635233C05E5007C765E /* Assets.xcassets */,
-				E8C1A637233C05E5007C765E /* LaunchScreen.storyboard */,
-				E8C1A63A233C05E5007C765E /* Info.plist */,
-				E8C1A632233C05E3007C765E /* Task29.xcdatamodeld */,
+				E8C1A645233C064F007C765E /* UIViews */,
+				E8C1A644233C0647007C765E /* ModelViewControllers */,
+				E8C1A643233C0642007C765E /* ModelControllers */,
+				E8C1A642233C063F007C765E /* Models */,
+				E8C1A641233C0639007C765E /* HelperModel */,
+				E8C1A640233C0630007C765E /* Resources */,
 			);
 			path = Task29;
+			sourceTree = "<group>";
+		};
+		E8C1A640233C0630007C765E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E8C1A62B233C05E3007C765E /* AppDelegate.swift */,
+				E8C1A635233C05E5007C765E /* Assets.xcassets */,
+				E8C1A63A233C05E5007C765E /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E8C1A641233C0639007C765E /* HelperModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HelperModel;
+			sourceTree = "<group>";
+		};
+		E8C1A642233C063F007C765E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E8C1A632233C05E3007C765E /* Task29.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E8C1A643233C0642007C765E /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		E8C1A644233C0647007C765E /* ModelViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelViewControllers;
+			sourceTree = "<group>";
+		};
+		E8C1A645233C064F007C765E /* UIViews */ = {
+			isa = PBXGroup;
+			children = (
+				E8C1A648233C065C007C765E /* StoryBoards */,
+				E8C1A647233C0657007C765E /* XIBs */,
+				E8C1A646233C0653007C765E /* CustomCells */,
+			);
+			path = UIViews;
+			sourceTree = "<group>";
+		};
+		E8C1A646233C0653007C765E /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		E8C1A647233C0657007C765E /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
+		E8C1A648233C065C007C765E /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				E8C1A62F233C05E3007C765E /* Main.storyboard */,
+				E8C1A637233C05E5007C765E /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +207,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8C1A62E233C05E3007C765E /* ViewController.swift in Sources */,
 				E8C1A634233C05E3007C765E /* Task29.xcdatamodeld in Sources */,
 				E8C1A62C233C05E3007C765E /* AppDelegate.swift in Sources */,
 			);
@@ -288,7 +356,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J27FYKQAGV;
-				INFOPLIST_FILE = Task29/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Task29/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +374,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J27FYKQAGV;
-				INFOPLIST_FILE = Task29/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Task29/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
